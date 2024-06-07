@@ -1,7 +1,9 @@
 body {
+   margin: 0 0 0 0;
     font-family: Arial, sans-serif;
   }
   .contenedor-logo {
+    background: linear-gradient(to right, black, rgba(192, 143, 18, 0.924));
     display: flex;
     align-items: center;
     background-color: #333;
@@ -18,10 +20,12 @@ body {
     margin-left: 10px;
   }
   nav {
-    background-color: #222;
+    background-color: #000000;
     padding: 10px;
+    border: 1px solid #ffff
   }
   nav ul {
+    height: 20px;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -34,12 +38,12 @@ body {
     color: white;
     text-decoration: none;
     padding: 5px 10px;
-    border: 2px solid transparent;
+    border: 1px solid #ffff
   }
   nav ul li a:hover,
   nav ul li a:focus {
-    color: yellow;
-    border-color: yellow;
+    color:   rgba(192, 143, 18, 0.924) ;
+    border:1px solid rgba(192, 143, 18, 0.924);
   }
   .submenu {
     display: none;

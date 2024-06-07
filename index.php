@@ -12,8 +12,10 @@
 <body>
 
 <div class="contenedor-logo">
-  <div class="logo"></div>
-  <div class="nombre-marca">ARGENTCON</div>
+  <div class="logo">
+    <img src="sol_logo.png" alt="">
+  </div>
+  <div class="nombre-marca">ARGENTCOIN</div>
 </div>
 
 <nav>
