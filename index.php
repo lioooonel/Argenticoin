@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <link rel="icon" href="sol_logo.ico" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="nav.css">
+<link rel="stylesheet" type="text/css" href="index.css">
 <title>Argentcoin</title>
 <style>
   
@@ -12,8 +13,8 @@
 <body>
 
 <div class="contenedor-logo">
-  <div class="logo">
-    <img src="sol_logo.png" alt="">
+  <div class="cont_logo">
+    <img class="logo" src="" alt="">
   </div>
   <div class="nombre-marca">ARGENTCOIN</div>
 </div>
@@ -24,14 +25,12 @@
       <div class="submenu">
         <a href="#">Subopción 1</a>
         <a href="#">Subopción 2</a>
-        <!-- Más subopciones si es necesario -->
       </div>
     </li>
     <li><a href="#">GUARDADOS</a>
       <div class="submenu">
         <a href="#">Subopción 1</a>
         <a href="#">Subopción 2</a>
-        <!-- Más subopciones si es necesario -->
       </div>
     </li>
     <li><a href="#">NOSOTROS</a></li>
@@ -39,6 +38,10 @@
     <li><a href="#">CUENTA/REGISTRE</a></li>
   </ul>
 </nav>
-
+<img class="img_inicio" src="argentcoin.gif" alt="">
+<div class="cont">
+  <div class="cuadro"></div>
+  <div class="cuadro"></div>
+</div>
 </body>
 </html>

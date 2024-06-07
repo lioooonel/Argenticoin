@@ -1,6 +1,7 @@
 body {
    margin: 0 0 0 0;
     font-family: Arial, sans-serif;
+    background-color: #000000;
   }
   .contenedor-logo {
     background: linear-gradient(to right, black, rgba(192, 143, 18, 0.924));
@@ -9,12 +10,13 @@ body {
     background-color: #333;
     padding: 10px;
   }
-  .logo {
-    width: 50px; /* Ajusta al tamaño de tu logo */
-    height: 50px; /* Ajusta al tamaño de tu logo */
-    background-image: url('logo.png'); /* Cambia por la URL de tu logo */
+  .cont_logo {
+    width: 70px; 
+    height: 60px; 
+    background-image: url('sol_logo.png');
     background-size: cover;
   }
+  
   .nombre-marca {
     color: white;
     margin-left: 10px;
@@ -22,7 +24,7 @@ body {
   nav {
     background-color: #000000;
     padding: 10px;
-    border: 1px solid #ffff
+   
   }
   nav ul {
     height: 20px;
@@ -31,21 +33,22 @@ body {
     margin: 0;
     display: flex;
   }
-  nav ul li {
-    margin-right: 20px;
-  }
   nav ul li a {
     color: white;
     text-decoration: none;
-    padding: 5px 10px;
+    padding: 9px 74px;
     border: 1px solid #ffff
   }
-  nav ul li a:hover,
-  nav ul li a:focus {
+  nav ul li a:hover, nav ul li a:focus {
     color:   rgba(192, 143, 18, 0.924) ;
-    border:1px solid rgba(192, 143, 18, 0.924);
+    border-top:1px solid rgba(192, 143, 18, 0.924);
+    border-bottom:1px solid rgba(192, 143, 18, 0.924);
+    border-left:2px solid rgba(192, 143, 18, 0.924);
+    border-right:2px solid rgba(192, 143, 18, 0.924);
+
   }
   .submenu {
+    margin-top: 10px;
     display: none;
     position: absolute;
     background-color: #333;
