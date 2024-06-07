@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  .contenedor-logo {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+  }
+  .logo {
+    width: 50px; /* Ajusta al tamaño de tu logo */
+    height: 50px; /* Ajusta al tamaño de tu logo */
+    background-image: url('logo.png'); /* Cambia por la URL de tu logo */
+    background-size: cover;
+  }
+  .nombre-marca {
+    color: white;
+    margin-left: 10px;
+  }
+  nav {
+    background-color: #222;
+    padding: 10px;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  nav ul li {
+    margin-right: 20px;
+  }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 2px solid transparent;
+  }
+  nav ul li a:hover,
+  nav ul li a:focus {
+    color: yellow;
+    border-color: yellow;
+  }
+  .submenu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    border: 1px solid #444;
+    padding: 10px;
+  }
+  nav ul li:hover .submenu {
+    display: block;
+  }
