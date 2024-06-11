@@ -1,2 +1,2 @@
-# Argenticoin
+# Argentcoin
 coleccion de monedas argentinas
